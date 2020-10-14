@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ticketbooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ticketbooking.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Er"
+            android:label="@string/title_activity_er" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Url"
+            android:label="@string/title_activity_url" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Alert"
+            android:label="@string/title_activity_alert" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Web"
+            android:label="@string/title_activity_web" >
+        </activity>
+        <activity
+            android:name="com.example.ticketbooking.Layout"
+            android:label="@string/title_activity_layout" >
+        </activity>
+    </application>
+
+</manifest>
